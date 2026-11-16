@@ -1,0 +1,505 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#080e17"/>
+    <meta name="description" content="Last Signal: The Broken Wheel That Discovered Water — a playable NASA Spirit rover science story."/>
+
+    <title>LAST SIGNAL — Our OuterX Interactive Story</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <a class="logo" href="#" id="home-link" aria-label="Go to Last Signal home">
+            <span class="logo-mark" aria-hidden="true"></span>
+            <span class="wordmark">LAST SIGNAL <small>AN OUTERX EXPLORAION</small></span>
+        </a>
+
+        <div class="header-right">
+            <span>ONE ROVER. ONE REMARKABLE DISCOVERY.</span>
+            <button class="outline-btn" id="sources-top">NASA Sources ↗</button>
+        </div>
+
+    </header>
+
+
+    <div id="home" class="screen">
+
+        <section class="hero">
+
+            <div class="sky"></div>
+            <div class="stars"></div>
+            <div class="planet"></div>
+            <div class="horizon"></div>
+
+            <svg
+                class="rover-art"
+                viewBox="0 0 640 440"
+                role="img"
+                aria-label="Original silhouette illustration of a six-wheeled Mars rover"
+            >
+
+                <defs>
+                    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+                        <stop stop-color="#f1b98e"/>
+                        <stop offset=".35" stop-color="#9e6250"/>
+                        <stop offset="1" stop-color="#342c30"/>
+                    </linearGradient>
+                </defs>
+
+                <ellipse cx="319" cy="393" rx="262" ry="20" fill="#080c13" opacity=".5"/>
+
+                <g stroke="#9e7260" stroke-width="9" stroke-linecap="round" fill="none">
+                    <path d="M112 295L164 264L209 293L261 255L328 291L387 265L470 292L526 276"/>
+                    <path d="M164 264L163 330M261 255L260 334M387 265L386 333M526 276L525 327"/>
+                </g>
+
+                <g fill="#292a30" stroke="#bb856f" stroke-width="13">
+                    <circle cx="126" cy="336" r="36"/>
+                    <circle cx="247" cy="345" r="36"/>
+                    <circle cx="379" cy="345" r="36"/>
+                    <circle cx="524" cy="333" r="36"/>
+                </g>
+
+                <g fill="#7c615b" stroke="#e5ae82" stroke-width="4">
+                    <circle cx="126" cy="336" r="15"/>
+                    <circle cx="247" cy="345" r="15"/>
+                    <circle cx="379" cy="345" r="15"/>
+                    <circle cx="524" cy="333" r="15"/>
+                </g>
+
+                <path d="M168 219L220 279L438 279L484 218Z" fill="url(#metal)" stroke="#e7a97d" stroke-width="5"/>
+                <path d="M144 203L497 203L463 231L166 231Z" fill="#7e6d65" stroke="#e6a276" stroke-width="4"/>
+                <path d="M150 203L186 168L458 168L497 203Z" fill="#52474a" stroke="#e8ae7e" stroke-width="3"/>
+
+                <g stroke="#cd9174" stroke-width="3" opacity=".9">
+                    <path d="M205 174L235 224M248 174L275 224M289 174L313 224M333 174L356 224M375 174L397 224M416 174L438 224"/>
+                </g>
+
+                <path d="M307 168L307 91M322 168L322 91" stroke="#cb9277" stroke-width="9"/>
+
+                <rect x="276" y="68" width="83" height="38" rx="5" fill="#a57664" stroke="#e1ad8c" stroke-width="4"/>
+
+                <circle cx="298" cy="87" r="8" fill="#132431" stroke="#e0b799" stroke-width="4"/>
+                <circle cx="333" cy="87" r="8" fill="#132431" stroke="#e0b799" stroke-width="4"/>
+
+                <path d="M390 165L430 93L485 78" stroke="#cfa081" stroke-width="8" fill="none"/>
+                <path d="M455 65L516 95L507 123L449 95Z" fill="#b38469" stroke="#f1bb90" stroke-width="4"/>
+                <path d="M180 249L132 224L111 230" fill="none" stroke="#cfa081" stroke-width="7"/>
+
+                <circle cx="101" cy="229" r="13" fill="#e4a97c"/>
+
+            </svg>
+
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+                    * AN INTERACTIVE NASA SCIENCE STORY
+                </div>
+
+                <h1>
+                    <span class="line">THE BROKEN</span>
+                    <span class="line">
+                        <span class="serif">WHEEL</span> THAT
+                    </span>
+                    <span class="line">FOUND WATER.</span>
+                </h1>
+                  
+                <p class="lead">
+                    I was built to search Mars for clues of ancient water. Then one of my wheels broke. What happened next changed the way we understood an 
+                    entire planet.
+                </p>
+
+                <div class="hero-actions">
+
+                    <button id="start-btn" class="primary-btn">
+                        Begin the investigation <span aria-hidden="true">↗</span>
+                    </button>
+
+                    <button id="how-btn" class="ghost-btn">
+                        How it works
+                    </button>
+
+                </div>
+
+                <div class="hero-note">
+                    BASED ON SPIRIT'S REAL MISSION · APPROX. 8 - 12 MINUTES · AGES 10+
+                </div>
+
+            </div>
+
+
+            <div class="hero-bottom">
+                <span>MISSION: MARS EXPLORATION ROVER - SPIRIT</span>
+                <span>2003 -> 2011</span>
+            </div>
+
+        </section>
+
+
+        <section class="home-features">
+
+            <div class="feature-wrap">
+
+                <div class="feature-head">
+
+                    <h2>
+                        Not just a story. <span class="serif">A discovery.</span>
+                    </h2>
+
+                    <span class="eyebrow">YOUR MISSION BRIEFING</span>
+
+                </div>
+
+
+                <div class="feature-grid">
+
+                    <article class="feature">
+
+                        <span class="num">01 / EXPLORE</span>
+
+                        <h3>Walk through history</h3>
+
+                        <p>
+                            Fve short chapters take you from Spirit's launch to its final days on Mars.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature">
+
+                        <span class="num">02 / INVESTIGATE</span>
+
+                        <h3>Figure-out the facts</h3>
+
+                        <p>
+                            Look at NASA mission photogaphs, follow the clues, and make scientific decisions.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature">
+
+                        <span class="num">03 / DISCOVER</span>
+
+                        <h3>Earn your mission report</h3>
+
+                        <p>
+                            Answer four evidenc questions and finish as a Mars science investigator.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <div class="disclaimer-bar">
+            Independent educational project by OuterX(Out team name). Not affiliated with or endorsed by NASA. First-person naration is 
+            fictional. Science facts are sourced.
+        </div>
+
+    </div>
+
+
+
+    <div id="experience" class="screen">
+
+        <div class="app-shell">
+
+            <aside class="sidebar">
+
+                <div class="over">MISSION CONTROL</div>
+
+                <h3>Spirit's Journey</h3>
+
+
+                <div class="side-progress">
+
+                    <div class="top">
+
+                        <span>Evidence recovered</span>
+
+                        <strong id="progress-txt">0 / 4</strong>
+
+                    </div>
+
+                    <div class="meter">
+                        <div class="meter-fill" id="progress-fill"></div>
+                    </div>
+
+                </div>
+
+
+                <nav
+                    id="chapter-nav"
+                    class="chapters"
+                    aria-label="Story chapters"
+                ></nav>
+
+
+                <div class="side-footer">
+
+                    The idear is the narration imagines Spirit speaking. NASA did not publish these words as actual rover messages.
+
+                    <p>
+                        <button class="small-link" id="sources-side">
+                            View source archive ↗
+                        </button>
+                    </p>
+
+                </div>
+
+            </aside>
+
+
+
+            <div class="experience-main">
+
+                <div class="chapter-top">
+
+                    <span class="crumb" id="crumb">
+                        FIELD JOURNAL / 01
+                    </span>
+
+                    <div class="actions">
+
+                        <button
+                            id="narrate-btn"
+                            class="top-icon"
+                            title="Read the story aloud"
+                        >
+                            ▶ Read aloud
+                        </button>
+
+                        <button id="reset-btn" class="top-icon">
+                            ↻ Restart
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <nav
+                    class="mobile-chapters"
+                    id="mobile-nav"
+                    aria-label="Story chapters"
+                ></nav>
+
+
+                <main
+                    class="story-area"
+                    id="story-area"
+                    tabindex="-1"
+                    aria-live="polite"
+                ></main>
+
+
+                <div class="bottom-banner">
+                    OUTERX PRESENTS · LAST SIGNAL · SCIENCE SOURCES: NASA / JPL / CORNELL · NOT AN OFFICIAL NASA PRODUCT
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div
+        class="sources-modal"
+        id="sources-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+    >
+
+        <div class="modal-card">
+
+            <div class="modal-head">
+
+                <h2 id="modal-title" style="font-size:1.65rem;margin:0">
+                    Mission source archive
+                </h2>
+
+                <button
+                    class="modal-close"
+                    id="close-modal"
+                    aria-label="Close source archive"
+                >
+                    ✕
+                </button>
+
+            </div>
+
+
+            <p class="small" style="margin-top:15px">
+                Every scientific claim here is based on NASA material. The narration is an imagined first-person retelling, not a NASA transcript. 
+                Pictures, when connected to the internet, are fetched directly from NASA or JPL sources and are labelled.
+            </p>
+
+
+            <ol class="source-list">
+
+                <li>
+
+                    <a
+                        href="https://science.nasa.gov/mission/mer-spirit/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Spirit — NASA Science mission overview ↗
+                    </a>
+
+                    <small>
+                        Launch, landing, science findings, wheel failure, final contact, mission end.
+                    </small>
+
+                </li>
+
+
+                <li>
+
+                    <a
+                        href="https://science.nasa.gov/photojournal/silica-rich-soil-found-by-spirit/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Silica-Rich Soil Found by Spirit — NASA Photojournal ↗
+                    </a>
+
+                    <small>
+                        Gertrude Weise soil, mineral investigation and approximately 90% silica.
+                    </small>
+
+                </li>
+
+
+                <li>
+
+                    <a
+                        href="https://science.nasa.gov/photojournal/rovers-wheel-churns-up-bright-martian-soil/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Rover's Wheel Churns Up Bright Martian Soil — NASA ↗
+                    </a>
+
+                    <small>
+                        Photograph of the wheel track and silica deposit, credited to NASA/JPL-Caltech/Cornell.
+                    </small>
+
+                </li>
+
+
+                <li>
+
+                    <a
+                        href="https://science.nasa.gov/photojournal/mars-exploration-rover-vertical-artists-concept/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Spirit / Opportunity artist concept — NASA ↗
+                    </a>
+
+                    <small>
+                        Original rover artwork used for a mission introduction.
+                    </small>
+
+                </li>
+
+
+                <li>
+
+                    <a
+                        href="https://www.nasa.gov/nasa-brand-center/images-and-media/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        NASA media usage guidance ↗
+                    </a>
+
+                    <small>
+                        Review before redistributing NASA images or publishing publicly.
+                    </small>
+
+                </li>
+
+            </ol>
+
+
+            <p class="small muted">
+                Educational demonstration created 2026. Not medically or scientifically endorsed by NASA.
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    
+<div class="print-only" id="print-root">
+
+    <div class="print-certificate">
+
+        <div class="certificate-logo">
+
+            <span
+                class="logo-mark"
+                aria-hidden="true">
+            </span>
+
+            <span class="wordmark">
+                LAST SIGNAL
+                <small>AN OUTERX EXPLORATION</small>
+            </span>
+
+        </div>
+
+        <h1>MISSION COMPLETE</h1>
+
+        <p>This is to certify that</p>
+
+        <div id="print-name" class="person">
+            Explorer
+        </div>
+
+        <p>
+            has completed the Spirit Rover Science Investigation<br/>
+            and recovered all four evidence clues.
+        </p>
+
+        <p style="margin-top:55px">
+            The missions end. The discoveries live on.
+        </p>
+
+        <p class="brand">
+            INDEPENDENT EDUCATIONAL PROJECT • NOT A NASA CERTIFICATION
+        </p>
+
+    </div>
+
+</div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
